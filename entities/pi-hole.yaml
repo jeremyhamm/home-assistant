@@ -1,0 +1,9 @@
+######################################################
+# Pi-hole                                            #
+# https://www.home-assistant.io/integrations/pi_hole #
+######################################################
+
+- host: !secret pi_hole_ip
+  ssl: false
+  verify_ssl: false
+  api_key: !secret pi_hole_api_key

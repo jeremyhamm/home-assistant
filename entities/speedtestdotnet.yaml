@@ -1,0 +1,8 @@
+###############################################################
+# Speedtest                                                   #
+# https://www.home-assistant.io/integrations/speedtestdotnet/ #
+###############################################################
+
+  server_id: 2426
+  scan_interval:
+    hours: 3

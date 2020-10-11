@@ -1,0 +1,17 @@
+######################################################
+# Sensors                                            #
+# https://www.home-assistant.io/integrations/sensor/ #
+######################################################
+  
+# Speedtestdotnet
+- platform: speedtestdotnet
+  monitored_conditions:
+  - ping
+  - download
+  - upload
+
+# Pushbullet
+- platform: pushbullet
+  api_key: !secret pushbullet_api_key
+  monitored_conditions:
+  - body

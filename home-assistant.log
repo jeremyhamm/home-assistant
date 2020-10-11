@@ -1,0 +1,1121 @@
+2020-10-11 11:16:16 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2020-10-11 11:16:16 WARNING (MainThread) [homeassistant.loader] You are using a custom integration for smartweather which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant.
+2020-10-11 11:16:20 ERROR (MainThread) [hole] Can not load data from *hole: 123
+2020-10-11 11:16:20 ERROR (MainThread) [homeassistant.components.pi_hole.config_flow] Failed to import: Can not load data from *hole: 123
+2020-10-11 11:16:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_open of <Listener(Thread-6, initial daemon)>>: on_open() missing 1 required positional argument: 'ws'
+2020-10-11 11:16:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:16:21 WARNING (Amcrest Backyard) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:16:21 WARNING (Amcrest Backyard) [homeassistant.components.amcrest] Error while processing events from Backyard camera: CommError(ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xae656dd8>: Failed to establish a new connection: [Errno 111] Connection refused'))")))
+2020-10-11 11:16:21 WARNING (Amcrest Backyard) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:16:21 WARNING (Amcrest Backyard) [homeassistant.components.amcrest] Error while processing events from Backyard camera: CommError(ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xae664310>: Failed to establish a new connection: [Errno 111] Connection refused'))")))
+2020-10-11 11:16:21 WARNING (Amcrest Backyard) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:16:21 WARNING (Amcrest Backyard) [homeassistant.components.amcrest] Error while processing events from Backyard camera: CommError(ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xb074acd0>: Failed to establish a new connection: [Errno 111] Connection refused'))")))
+2020-10-11 11:16:21 WARNING (Amcrest Backyard) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:16:21 WARNING (Amcrest Backyard) [homeassistant.components.amcrest] Error while processing events from Backyard camera: CommError(ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xae460238>: Failed to establish a new connection: [Errno 111] Connection refused'))")))
+2020-10-11 11:16:21 WARNING (Amcrest Backyard) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:16:21 WARNING (Amcrest Backyard) [homeassistant.components.amcrest] Error while processing events from Backyard camera: CommError(ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xae460808>: Failed to establish a new connection: [Errno 111] Connection refused'))")))
+2020-10-11 11:16:21 WARNING (Amcrest Backyard) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:16:21 ERROR (Amcrest Backyard) [homeassistant.components.amcrest] Backyard camera offline: Too many errors
+2020-10-11 11:16:21 WARNING (Amcrest Backyard) [homeassistant.components.amcrest] Error while processing events from Backyard camera: CommError(ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xae460928>: Failed to establish a new connection: [Errno 111] Connection refused'))")))
+2020-10-11 11:16:21 ERROR (MainThread) [homeassistant.components.binary_sensor] The smartweather platform for the binary_sensor integration does not support platform setup. Please remove it from your config.
+2020-10-11 11:16:21 ERROR (MainThread) [homeassistant.components.sensor] Error while setting up smartweather platform for sensor
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_platform.py", line 201, in _async_setup_platform
+    await asyncio.gather(*pending)
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_platform.py", line 310, in async_add_entities
+    await asyncio.gather(*tasks)
+  File "/usr/src/homeassistant/homeassistant/helpers/entity_platform.py", line 481, in _async_add_entity
+    await entity.add_to_platform_finish()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 522, in add_to_platform_finish
+    self.async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:16:30 ERROR (MainThread) [homeassistant.components.sensor] The speedtestdotnet platform for the sensor integration does not support platform setup. Please remove it from your config.
+2020-10-11 11:16:32 ERROR (MainThread) [custom_components.hacs.factory] maykar/custom-header - Repository is archived.
+2020-10-11 11:16:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:17:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:17:21 WARNING (SyncWorker_3) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:17:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:17:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:18:06 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from dsldevice.attlocal.net (192.168.1.254) (Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0)
+2020-10-11 11:18:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:18:21 WARNING (SyncWorker_33) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:18:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:18:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:19:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:19:21 WARNING (SyncWorker_41) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:19:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:19:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:20:15 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:20:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:20:21 WARNING (SyncWorker_30) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:20:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:20:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:21:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:21:21 WARNING (SyncWorker_28) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:21:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:21:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:21:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:22:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:22:21 WARNING (SyncWorker_42) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:22:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:22:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:23:13 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:23:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:23:21 WARNING (SyncWorker_9) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:23:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:23:36 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from dsldevice.attlocal.net (192.168.1.254) (Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0)
+2020-10-11 11:23:36 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from dsldevice.attlocal.net (192.168.1.254) (Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0)
+2020-10-11 11:23:38 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from dsldevice.attlocal.net (192.168.1.254) (Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0)
+2020-10-11 11:23:39 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from dsldevice.attlocal.net (192.168.1.254) (Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0)
+2020-10-11 11:23:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:24:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:24:21 WARNING (SyncWorker_14) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:24:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:24:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:25:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:25:21 WARNING (SyncWorker_9) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:25:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:25:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:26:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:26:21 WARNING (SyncWorker_0) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:26:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:26:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:26:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:27:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:27:21 WARNING (SyncWorker_29) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:27:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:27:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:28:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:28:21 WARNING (SyncWorker_18) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:28:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:28:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:29:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:29:21 WARNING (SyncWorker_16) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:29:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:29:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:30:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:30:21 WARNING (SyncWorker_11) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:30:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:30:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:31:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:31:21 WARNING (SyncWorker_5) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:31:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:31:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:31:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:32:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:32:21 WARNING (SyncWorker_1) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:32:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:32:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:33:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:33:21 WARNING (SyncWorker_42) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:33:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:33:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:34:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:34:21 WARNING (SyncWorker_38) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:34:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:34:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:35:10 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:35:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:35:21 WARNING (SyncWorker_46) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:35:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:35:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:36:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:36:21 WARNING (SyncWorker_7) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:36:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:36:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:36:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:37:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:37:21 WARNING (SyncWorker_33) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:37:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:37:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:38:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:38:21 WARNING (SyncWorker_39) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:38:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:38:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:39:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:39:21 WARNING (SyncWorker_17) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:39:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:39:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:40:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:40:21 WARNING (SyncWorker_38) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:40:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:40:45 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from 172.58.22.215 (172.58.22.215) (Mozilla/5.0 (Android 11; Mobile; rv:81.0) Gecko/81.0 Firefox/81.0)
+2020-10-11 11:40:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:40:50 WARNING (MainThread) [homeassistant.components.http.ban] Login attempt or request with invalid authentication from 172.58.22.215 (172.58.22.215) (Mozilla/5.0 (Android 11; Mobile; rv:81.0) Gecko/81.0 Firefox/81.0)
+2020-10-11 11:41:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:41:21 WARNING (SyncWorker_13) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:41:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:41:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:41:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:42:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:42:21 WARNING (SyncWorker_19) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:42:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:42:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:43:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:43:21 WARNING (SyncWorker_26) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:43:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:43:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:44:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:44:21 WARNING (SyncWorker_22) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:44:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:44:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:45:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:45:21 WARNING (SyncWorker_13) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:45:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:45:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:46:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:46:21 WARNING (SyncWorker_14) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:46:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:46:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:46:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:47:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:47:21 WARNING (SyncWorker_39) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:47:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:47:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:48:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:48:21 WARNING (SyncWorker_35) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:48:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:48:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:49:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:49:21 WARNING (SyncWorker_10) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:49:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:49:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:50:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:50:21 WARNING (SyncWorker_39) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:50:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:50:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:51:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:51:21 WARNING (SyncWorker_1) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:51:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:51:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:51:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:52:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:52:21 WARNING (SyncWorker_37) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:52:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:52:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:53:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:53:21 WARNING (SyncWorker_39) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:53:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:53:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:54:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:54:21 WARNING (SyncWorker_22) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:54:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:54:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:55:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:55:21 WARNING (SyncWorker_4) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:55:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:55:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:56:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:56:21 WARNING (SyncWorker_28) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:56:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:56:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:56:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:57:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:57:21 WARNING (SyncWorker_19) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:57:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:57:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:58:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:58:21 WARNING (SyncWorker_27) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:58:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:58:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:59:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 11:59:21 WARNING (SyncWorker_23) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 11:59:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 11:59:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 12:00:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 12:00:21 WARNING (SyncWorker_17) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 12:00:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 12:00:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 12:01:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 12:01:21 WARNING (SyncWorker_22) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 12:01:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 12:01:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 12:01:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 12:02:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 12:02:21 WARNING (SyncWorker_12) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 12:02:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 12:02:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 12:03:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 12:03:21 WARNING (SyncWorker_45) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 12:03:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 12:03:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 12:04:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 12:04:21 WARNING (SyncWorker_19) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 12:04:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 12:04:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 12:05:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 12:05:21 WARNING (SyncWorker_45) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 12:05:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 12:05:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 12:06:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 12:06:21 WARNING (SyncWorker_14) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 12:06:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 12:06:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 12:06:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 12:07:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 12:07:21 WARNING (SyncWorker_20) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 12:07:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 12:07:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 12:08:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 12:08:21 WARNING (SyncWorker_1) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 12:08:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 12:08:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 12:09:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 12:09:21 WARNING (SyncWorker_21) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 12:09:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 12:09:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 12:10:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 12:10:21 WARNING (SyncWorker_10) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 12:10:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 12:10:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 12:11:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 12:11:21 WARNING (SyncWorker_18) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 12:11:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 12:11:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 12:11:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 12:12:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 12:12:21 WARNING (SyncWorker_9) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 12:12:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 12:12:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 12:13:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 12:13:21 WARNING (SyncWorker_2) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 12:13:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 12:13:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 12:14:20 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'
+2020-10-11 12:14:21 WARNING (SyncWorker_39) [amcrest.http] <None:None> Trying again due to error: ConnectionError(MaxRetryError("HTTPConnectionPool(host='192.168.1.128', port=80): Max retries exceeded with url: /cgi-bin/magicBox.cgi?action=getMachineName (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at ADDRESS>: Failed to establish a new connection: [Errno 111] Connection refused'))"))
+2020-10-11 12:14:21 ERROR (MainThread) [homeassistant] Error doing job: Task exception was never retrieved
+Traceback (most recent call last):
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 118, in _handle_refresh_interval
+    await self.async_refresh()
+  File "/usr/src/homeassistant/homeassistant/helpers/update_coordinator.py", line 192, in async_refresh
+    update_callback()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 296, in async_write_ha_state
+    self._async_write_ha_state()
+  File "/usr/src/homeassistant/homeassistant/helpers/entity.py", line 320, in _async_write_ha_state
+    sstate = self.state
+  File "/config/custom_components/smartweather/sensor.py", line 197, in state
+    return round(value, 1)
+TypeError: type NoneType doesn't define __round__ method
+2020-10-11 12:14:50 ERROR (Thread-5) [websocket] error from callback <bound method Listener.on_message of <Listener(Thread-6, initial daemon)>>: on_message() missing 1 required positional argument: 'message'

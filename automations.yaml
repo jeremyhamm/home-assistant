@@ -1,0 +1,141 @@
+- id: '1595363792482'
+  alias: Front light off sunrise
+  description: ' Turn front light off at sunrise'
+  trigger:
+  - event: sunrise
+    offset: '30'
+    platform: sun
+  condition:
+  - condition: device
+    device_id: e4fd208373d0440ba702412f1ccdf6a6
+    domain: light
+    entity_id: light.front_yard_light
+    type: is_on
+  action:
+  - device_id: e4fd208373d0440ba702412f1ccdf6a6
+    domain: light
+    entity_id: light.front_yard_light
+    type: turn_off
+- id: '1595364221832'
+  alias: Family room light on sunset
+  description: Turn family room light on at sunset
+  trigger:
+  - event: sunset
+    offset: '60'
+    platform: sun
+  condition:
+  - condition: device
+    type: is_off
+    device_id: 53c5236384204388a75d1959b66443a0
+    entity_id: switch.outlet_family_room
+    domain: switch
+  action:
+  - type: turn_on
+    device_id: 53c5236384204388a75d1959b66443a0
+    entity_id: switch.outlet_family_room
+    domain: switch
+  mode: single
+- id: '1595364446530'
+  alias: Family room light off bedtime
+  description: Turn family room light off at bedtime
+  trigger:
+  - at: '22:30:00'
+    platform: time
+  condition:
+  - condition: device
+    type: is_on
+    device_id: 53c5236384204388a75d1959b66443a0
+    entity_id: switch.outlet_family_room
+    domain: switch
+  action:
+  - type: turn_off
+    device_id: 53c5236384204388a75d1959b66443a0
+    entity_id: switch.outlet_family_room
+    domain: switch
+  mode: single
+- id: '1595383791794'
+  alias: Front light on at sunset
+  description: Turn front yard light on at sunset
+  trigger:
+  - event: sunset
+    offset: '20'
+    platform: sun
+  condition:
+  - condition: device
+    device_id: e4fd208373d0440ba702412f1ccdf6a6
+    domain: light
+    entity_id: light.front_yard_light
+    type: is_off
+  action:
+  - brightness_pct: 100
+    device_id: e4fd208373d0440ba702412f1ccdf6a6
+    domain: light
+    entity_id: light.front_yard_light
+    type: turn_on
+- id: '1597947042037'
+  alias: Rain Alert
+  description: Send a notification when it starts raining
+  trigger:
+  - entity_id: binary_sensor.smartweather_raining
+    from: 'off'
+    platform: state
+    to: 'on'
+  condition: []
+  action:
+  - data: {}
+    service: script.raining
+  mode: single
+- id: '1597947884073'
+  alias: Freezing Alert
+  description: Send notification when temperature is <= 32° F
+  trigger:
+  - entity_id: binary_sensor.smartweather_freezing
+    from: 'off'
+    platform: state
+    to: 'on'
+  condition: []
+  action:
+  - data: {}
+    service: script.freezing
+  mode: single
+- id: '1598027740516'
+  alias: Hot water for cold days
+  description: Turn on the hot water recirculator when temperature is below 59° F
+  trigger:
+  - below: '59'
+    entity_id: sensor.smartweather_temperature
+    platform: numeric_state
+  condition:
+  - condition: device
+    device_id: 75b4f11fb49444d9b649b72523c346a5
+    domain: switch
+    entity_id: switch.hot_water_recirculator
+    type: is_off
+  - after: 06:00
+    before: '23:00'
+    condition: time
+  action:
+  - device_id: 75b4f11fb49444d9b649b72523c346a5
+    domain: switch
+    entity_id: switch.hot_water_recirculator
+    type: turn_on
+  mode: single
+- id: '1598027858282'
+  alias: Cold water for hot days
+  description: 'Turn off hot water recirculator when temperature above 60° F '
+  trigger:
+  - above: '60'
+    entity_id: sensor.smartweather_temperature
+    platform: numeric_state
+  condition:
+  - condition: device
+    device_id: 75b4f11fb49444d9b649b72523c346a5
+    domain: switch
+    entity_id: switch.hot_water_recirculator
+    type: is_on
+  action:
+  - device_id: 75b4f11fb49444d9b649b72523c346a5
+    domain: switch
+    entity_id: switch.hot_water_recirculator
+    type: turn_off
+  mode: single

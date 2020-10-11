@@ -1,0 +1,8 @@
+######################################################
+# Notifications                                      #
+# https://www.home-assistant.io/integrations/notify/ #
+######################################################
+
+- platform: pushbullet
+  name: notify.pushbullet
+  api_key: !secret pushbullet_api_key

@@ -1,0 +1,16 @@
+#######################################################
+# Amcrest                                             #
+# https://www.home-assistant.io/integrations/amcrest/ #
+#######################################################
+
+- host: !secret amcrest_host
+  username: !secret amcrest_username
+  password: !secret amcrest_password
+  name: Backyard
+  resolution: high
+  stream_source: rtsp
+  binary_sensors:
+  - motion_detected
+  - online
+  sensors:
+  - sdcard

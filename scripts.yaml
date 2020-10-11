@@ -1,0 +1,18 @@
+######################################################
+# Scripts                                            #
+# https://www.home-assistant.io/integrations/script/ #
+######################################################
+
+# Currently raining
+raining:
+  sequence:
+  - service: notify.notify_pushbullet
+    data:
+      message: "Its raining!"
+      
+# Currently below 32° F
+freezing:
+  sequence:
+  - service: notify.notify_pushbullet
+    data:
+      message: "Its at or below 32° F!"

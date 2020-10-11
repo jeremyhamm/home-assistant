@@ -1,0 +1,10 @@
+#############################################################
+# Binary Sensors                                            #
+# https://www.home-assistant.io/integrations/binary_sensor/ #
+#############################################################
+
+- platform: smartweather
+  monitored_conditions:
+  - raining
+  - freezing
+  - lightning

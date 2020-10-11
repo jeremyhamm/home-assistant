@@ -1,0 +1,9 @@
+############################################
+# MQTT                                     #
+# https://www.home-assistant.io/docs/mqtt/ #
+############################################
+
+  username: !secret mqtt_broker_username
+  password: !secret mqtt_broker_password
+  discovery: true
+  discovery_prefix: homeassistant

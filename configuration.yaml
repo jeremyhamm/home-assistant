@@ -1,0 +1,46 @@
+# Includes
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+sensor: !include sensors.yaml
+binary_sensor: !include binary-sensors.yaml
+switch: !include switches.yaml
+notify: !include notifications.yaml
+
+# Frontend
+frontend: !include theme.yaml
+
+# MQTT
+mqtt: !include mqtt.yaml
+
+# Entities
+amcrest: !include ./entities/amcrest.yaml
+camera: !include ./entities/camera.yaml
+smartweather: !include ./entities/smartweather.yaml
+speedtestdotnet: !include ./entities/speedtestdotnet.yaml
+spotify: !include ./entities/spotify.yaml
+pi_hole: !include ./entities/pi-hole.yaml
+
+# Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+# Text to speech
+tts:
+  - platform: google_translate
+  
+# Home assistant config
+homeassistant:
+  customize: !include customize.yaml
+  name: Hamm House
+  latitude: !secret latitude
+  longitude: !secret longitude
+  elevation: 396
+  temperature_unit: F
+  time_zone: America/Los_Angeles #http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  unit_system: imperial
+  external_url: !secret external_url
+  internal_url: !secret internal_url
+http:
+  ssl_certificate: !secret ssl_certificate
+  ssl_key: !secret ssl_key

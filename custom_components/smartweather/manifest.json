@@ -1,0 +1,13 @@
+{
+    "domain": "smartweather",
+    "name": "WeatherFlow Smart Weather",
+    "documentation": "https://github.com/briis/smartweather",
+    "config_flow": true,
+    "dependencies": [],
+    "codeowners": [
+        "@briis"
+    ],
+    "requirements": [
+        "pysmartweatherio==2.0.10"
+    ]
+}

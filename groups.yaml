@@ -1,0 +1,11 @@
+#####################################################
+# Groups                                            #
+# https://www.home-assistant.io/integrations/group/ #
+#####################################################
+
+internet_speed:
+  name: Internet Speed
+  entities:
+    - sensor.speedtest_download
+    - sensor.speedtest_upload
+    - sensor.speedtest_ping
