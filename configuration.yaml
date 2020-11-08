@@ -21,6 +21,7 @@ smartweather: !include ./entities/smartweather.yaml
 speedtestdotnet: !include ./entities/speedtestdotnet.yaml
 spotify: !include ./entities/spotify.yaml
 pi_hole: !include ./entities/pi-hole.yaml
+tuya: !include ./entities/tuya.yaml
 
 # Configure a default setup of Home Assistant (frontend, api, etc)
 default_config:

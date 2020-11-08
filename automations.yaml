@@ -17,40 +17,40 @@
     entity_id: light.front_yard_light
     type: turn_off
 - id: '1595364221832'
-  alias: Family room light on sunset
-  description: Turn family room light on at sunset
+  alias: Office switch on morning
+  description: Turn office switch on in the morning
   trigger:
-  - event: sunset
-    offset: '60'
+  - event: sunrise
     platform: sun
+    offset: '10'
   condition:
   - condition: device
     type: is_off
-    device_id: 53c5236384204388a75d1959b66443a0
-    entity_id: switch.outlet_family_room
+    device_id: a8c2ab6611aa11eb9f04e1acdbee4f8a
+    entity_id: switch.office
     domain: switch
   action:
   - type: turn_on
-    device_id: 53c5236384204388a75d1959b66443a0
-    entity_id: switch.outlet_family_room
+    device_id: a8c2ab6611aa11eb9f04e1acdbee4f8a
+    entity_id: switch.office
     domain: switch
   mode: single
 - id: '1595364446530'
-  alias: Family room light off bedtime
-  description: Turn family room light off at bedtime
+  alias: Office switch off at bedtime
+  description: Turn office switch off at bedtime
   trigger:
   - at: '22:30:00'
     platform: time
   condition:
   - condition: device
     type: is_on
-    device_id: 53c5236384204388a75d1959b66443a0
-    entity_id: switch.outlet_family_room
+    device_id: a8c2ab6611aa11eb9f04e1acdbee4f8a
+    entity_id: switch.office
     domain: switch
   action:
   - type: turn_off
-    device_id: 53c5236384204388a75d1959b66443a0
-    entity_id: switch.outlet_family_room
+    device_id: a8c2ab6611aa11eb9f04e1acdbee4f8a
+    entity_id: switch.office
     domain: switch
   mode: single
 - id: '1595383791794'

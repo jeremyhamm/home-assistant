@@ -15,3 +15,6 @@
   api_key: !secret pushbullet_api_key
   monitored_conditions:
   - body
+  
+# Moon
+- platform: moon
