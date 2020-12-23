@@ -1,0 +1,12 @@
+########################################################
+# InfluxDB                                             #
+# https://www.home-assistant.io/integrations/influxdb/ #
+########################################################
+
+   api_version: 1
+   ssl: false
+   verify_ssl: false
+   host: !secret influxdb_host
+   database: !secret influxdb_database
+   username : !secret influxdb_username
+   password: !secret influxdb_password

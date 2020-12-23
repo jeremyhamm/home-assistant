@@ -14,6 +14,12 @@ frontend: !include theme.yaml
 # MQTT
 mqtt: !include mqtt.yaml
 
+# InfluxDB
+influxdb: !include influxdb.yaml
+
+# Geo Location
+geo_location: !include geo_location.yaml
+
 # Entities
 amcrest: !include ./entities/amcrest.yaml
 camera: !include ./entities/camera.yaml

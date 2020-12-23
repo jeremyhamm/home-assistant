@@ -1,0 +1,11 @@
+#####################################################################
+# U.S. Geological Survey Earthquake Hazards                         #
+# https://www.home-assistant.io/integrations/usgs_earthquakes_feed/ #
+#####################################################################
+
+  - platform: usgs_earthquakes_feed
+    feed_type: 'past_week_significant_earthquakes'
+    radius: 50
+    minimum_magnitude: 0.0
+    latitude: !secret latitude
+    longitude: !secret longitude

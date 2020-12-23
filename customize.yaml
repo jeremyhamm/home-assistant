@@ -1,3 +1,9 @@
+# Binary Sensors
+binary_sensor.smartweather_raining:
+  friendly_name: Raining
+  templates:
+    icon_color: if (state === 'On') return 'rgb(57, 88, 119)';
+        
 # Sensors
 sensor.speedtest_download:
   friendly_name: Download Speed
